@@ -7,7 +7,7 @@ from sqlalchemy import inspect
 
 from sqlalchemy import func
 from sqlalchemy import create_engine,MetaData,Table,Column
-from .import BubbleUtilities
+import BubbleUtilities
 
 import pandas as pd
 
@@ -163,4 +163,4 @@ def getPieChart(year):
     return jsonify(pie_chart_data)
 
 if __name__ == "__main__":
-    app.run(debug = True)
+    app.run()
