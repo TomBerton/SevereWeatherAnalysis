@@ -1,5 +1,5 @@
 import numpy as np
-import MagnitudeScaler as scaler
+from .import MagnitudeScaler as scaler
 def getMarkerText(record):
     names = {"torn": "Tornado", "hail":"Hail", "wind":"Severe Wind"}
     measures = {"torn": "(F scale)" , "hail":"(inches)", "wind":"(knots)"}

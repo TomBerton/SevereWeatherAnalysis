@@ -7,7 +7,7 @@ from sqlalchemy import inspect
 
 from sqlalchemy import func
 from sqlalchemy import create_engine,MetaData,Table,Column
-import BubbleUtilities
+from .import BubbleUtilities
 
 import pandas as pd
 
