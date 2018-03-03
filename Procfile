@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn Severe_weather_analysis.app:app
