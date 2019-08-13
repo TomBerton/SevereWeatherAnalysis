@@ -2,10 +2,10 @@ var first = "Y";
 // Mapbox API
 var $mapContainer = document.getElementById("map-container");
 var streets = L.tileLayer("https://api.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=" +
-    "pk.eyJ1IjoidGJlcnRvbiIsImEiOiJjamRoanlkZXIwenp6MnFuOWVsbGo2cWhtIn0.zX40X0x50dpaN96rKQKarw");
+    "");
 
 var light = L.tileLayer("http://api.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token="+
-    "pk.eyJ1IjoidGJlcnRvbiIsImEiOiJjamRoanlkZXIwenp6MnFuOWVsbGo2cWhtIn0.zX40X0x50dpaN96rKQKarw");
+    "");
 
 //  query URL
 var tornadoURL = "https://raw.githubusercontent.com/TomBerton/SevereWeatherViz/master/json_data/tornado.json";
